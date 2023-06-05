@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$const val AndroidJunitRunner = "androidx.test.runner.AndroidJUnitRunner"</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$const val CompileSdk = 33</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$const val Id = "com.deimosdev.androidblueprint"</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$const val MinSdk = 21</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$const val TargetSdk = 33</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val BASE_URL = '"'</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val DEFAULT_APP_LABEL = "Android Blueprint"</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val DEV_API_URL = "\"\""</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val DEV_APP_LABEL = "Android Blueprint Dev"</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val PRODUCTION_APP_LABEL = "Android Blueprint Prod"</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val PROD_API_URL = "\"\""</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val STAGING_APP_LABEL = "Android Blueprint Staging"</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val VersionCode = generateVersionCode()</ID>
+    <ID>ClassOrdering:BaseConfig.kt$BaseConfig$val VersionName = generateVersionName()</ID>
+    <ID>ClassOrdering:DatabaseModule.kt$DatabaseModule$private val MIGRATION_1_2 = object : Migration(1, 2) { override fun migrate(database: SupportSQLiteDatabase) { database.execSQL("CREATE TABLE User (id INTEGER PRIMARY KEY NOT NULL, name TEXT)") } }</ID>
+    <ID>ClassOrdering:MockKConfig.kt$MockKConfig$@get:Rule var testCoroutineRule = TestCoroutineRule()</ID>
+    <ID>ClassOrdering:SecureStorageHelper.kt$SecureStorageHelper$init { cacheStore = CacheStore(context,FILE_NAME) }</ID>
+    <ID>ClassOrdering:SecureStorageHelper.kt$SecureStorageHelper$private val FILE_NAME ="secure_prefs"</ID>
+    <ID>ClassOrdering:SecureStorageHelper.kt$SecureStorageHelper$private val encryptionDecryptionUtils = EncryptionDecryptionUtils()</ID>
+    <ID>ClassOrdering:SecureStorageHelper.kt$SecureStorageHelper$private val keyStore: KeyStore = KeyStore.getInstance(ANDROID_KEYSTORE).apply { load(null) }</ID>
+    <ID>ClassOrdering:SecureStorageHelper.kt$SecureStorageHelper$suspend fun retrieveString(key:String): String?</ID>
+    <ID>ClassOrdering:SecureStorageHelper.kt$SecureStorageHelper$suspend fun saveString(value: String,key:String)</ID>
+    <ID>ForbiddenComment:DependencyHandlerExt.kt$// TODO: Remove extension functions and use ONLY the ones for adding modules within another module</ID>
+    <ID>FunctionNaming:CircularIndeterminateProgressBar.kt$@Composable fun CircularIndeterminateProgressBar(isDisplayed: Boolean, verticalBias: Float)</ID>
+    <ID>FunctionNaming:DefaultSnackbar.kt$@ExperimentalMaterialApi @Composable fun DefaultSnackbar( snackbarHostState: SnackbarHostState, modifier: Modifier = Modifier, onDismiss: () -&gt; Unit? )</ID>
+    <ID>FunctionNaming:LoadingRecipeListShimmer.kt$@Composable fun LoadingRecipeListShimmer( imageHeight: Dp, padding: Dp = 16.dp )</ID>
+    <ID>FunctionNaming:LoadingRecipeShimmer.kt$@Composable fun LoadingRecipeShimmer( imageHeight: Dp, padding: Dp = 16.dp )</ID>
+    <ID>FunctionNaming:NoResult.kt$@Composable fun NoResult()</ID>
+    <ID>FunctionNaming:RecipeCard.kt$@Composable fun RecipeCard( recipe: Recipe, onClick: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:RecipeList.kt$@ExperimentalMaterialApi @ExperimentalCoroutinesApi @Composable fun RecipeList( loading: Boolean, recipes: List&lt;Recipe&gt;, onChangeScrollPosition: (Int) -&gt; Unit, page: Int, onTriggerNextPage: () -&gt; Unit, onNavigateToRecipeDetailScreen: (Int) -&gt; Unit, )</ID>
+    <ID>FunctionNaming:RecipeView.kt$@ExperimentalCoroutinesApi @Composable fun RecipeView( recipe: Recipe, )</ID>
+    <ID>FunctionNaming:SearchAppBar.kt$@ExperimentalComposeUiApi @Composable fun SearchAppBar( query: String, onQueryChanged: (String) -&gt; Unit, onExecuteSearch: () -&gt; Unit, onToggleTheme: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:ShimmerRecipeCardItem.kt$@Composable fun ShimmerRecipeCardItem( colors: List&lt;Color&gt;, xShimmer: Float, yShimmer: Float, cardHeight: Dp, gradientWidth: Float, padding: Dp )</ID>
+    <ID>FunctionNaming:Theme.kt$@ExperimentalMaterialApi @Composable fun AppTheme( darkTheme: Boolean, displayProgressBar: Boolean, scaffoldState: ScaffoldState, content: @Composable () -&gt; Unit, )</ID>
+    <ID>MaxLineLength:EncryptionDecryptionUtils.kt$EncryptionDecryptionUtils$suspend</ID>
+    <ID>MaxLineLength:KeyStoreExtension.kt$val</ID>
+    <ID>MaxLineLength:RecipeDatabase.kt$RecipeDatabase.Companion.&lt;no name provided&gt;$db.execSQL("CREATE TABLE Recipe (pk INTEGER PRIMARY KEY, title TEXT, publisher TEXT, featuredImage TEXT, rating INTEGER, sourceUrl TEXT, ingredients TEXT)")</ID>
+    <ID>MaxLineLength:SecureStorageHelper.kt$SecureStorageHelper$suspend fun retrieveString(key:String): String?</ID>
+    <ID>MaxLineLength:SecureStorageHelper.kt$SecureStorageHelper.Companion$private const val CIPHER_TRANSFORMATION = "${KeyProperties.KEY_ALGORITHM_AES}/${KeyProperties.BLOCK_MODE_GCM}/${KeyProperties.ENCRYPTION_PADDING_NONE}"</ID>
+    <ID>SpacingBetweenDeclarationsWithAnnotations:com.deimosdev.frameworkutils.extension.KeyStoreExtension.kt:13</ID>
+    <ID>SpacingBetweenPackageAndImports:RecipeDtoMapper.kt$ </ID>
+    <ID>UnderscoresInNumericLiterals:BaseConfig.kt$BaseConfig$10000</ID>
+    <ID>UnusedPrivateMember:ActivityLifecycleHandler.kt$ActivityLifecycleHandler.Companion$private const val TAG = "LifecycleCallbacks"</ID>
+    <ID>UnusedPrivateMember:BaseConfig.kt$BaseConfig$private const val versionQualifier = "alpha1"</ID>
+    <ID>UseCheckOrError:KeyStoreExtension.kt$throw IllegalStateException("Key not found in keystore")</ID>
+  </CurrentIssues>
+</SmellBaseline>

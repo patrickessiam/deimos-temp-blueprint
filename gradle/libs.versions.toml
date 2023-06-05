@@ -1,0 +1,129 @@
+[versions]
+accompanist = "0.28.0"
+compose = "1.4.2"
+compose_compiler = "1.3.1"
+material = "1.8.0"
+navigation = "2.5.3"
+app_compat = "1.6.1"
+core_ktx = "1.7.0"
+datastore = "1.0.0"
+fragment_ktx = "1.5.6"
+lifecycle_ktx = "2.6.1"
+room_ktx = "2.5.0"
+coroutines_ktx = "1.6.1"
+hilt = "2.42"
+hilt_compose = "1.0.0"
+coil = "2.2.2"
+gson = "2.10.1"
+okhttp = "4.10.0"
+retrofit = "2.9.0"
+crashlytics = "18.3.6"
+android_junit_ktx = "1.1.5"
+android_test_core_ktx = "1.5.0"
+android_arch_core_test = "2.2.0"
+espresso_core = "3.5.1"
+coroutines_test = "1.6.1"
+junit = "4.13.2"
+junit_jupiter = "5.9.2"
+mockk = "1.12.3"
+mockito_core = "4.0.0"
+truth = "1.1.3"
+agp = "7.3.0"
+kotlin = "1.7.10"
+roboelectric = "4.7.3"
+timber = "5.0.1"
+lifecyle_runtime_ktx = "2.4.1"
+firebase-crashlytics-gradle = "2.8.1"
+firebaseDom = "31.2.2"
+dependency_update_checker = "0.45.0"
+detekt = "1.20.0"
+androidxComposeBom = "2023.03.00"
+dependency_vulnerability_scanner = "8.1.2"
+androidJacocoPlugin = "0.16.0"
+kotlinKoverVersion = "0.7.0-Beta"
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kotlinKoverVersion" }
+
+[libraries]
+gradle-plugin-android = { module = "com.android.tools.build:gradle", version.ref = "agp" }
+gradle-plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+gradle-plugin-dependency-update-checker = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "dependency_update_checker" }
+gradle-plugin-dependency-vulnerability-scanner = { module = "org.owasp:dependency-check-gradle", version.ref = "dependency_vulnerability_scanner" }
+gradle-plugin-detekt = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
+gradle-plugin-hilt = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
+android-jacoco-plugin = { module = "com.vanniktech:gradle-android-junit-jacoco-plugin", version.ref = "androidJacocoPlugin" }
+
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
+compose-foundation = { module = "androidx.compose.foundation:foundation" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-material = { module = "androidx.compose.material:material" }
+compose-constraintlayout = { module = "androidx.constraintlayout:constraintlayout-compose" }
+compose-tooling = { module = "androidx.compose.ui:ui-tooling" }
+compose-runtime = { module = "androidx.compose.runtime:runtime" }
+compose-compiler = { module = "androidx.compose.compiler:compiler", version.ref = "compose_compiler" }
+compose-navigation = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+compose-coil = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
+accompanist-navigation-material = { module = "com.google.accompanist:accompanist-navigation-material", version.ref = "accompanist" }
+
+activity_ktx = { module = "androidx.activity:activity-ktx", version.ref = "core_ktx" }
+app_compat = { module = "androidx.appcompat:appcompat", version.ref = "app_compat" }
+core_ktx = { module = "androidx.core:core-ktx", version.ref = "core_ktx" }
+fragment_ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment_ktx" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+viewmodel_ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle_ktx" }
+
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt_compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+hilt_compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt_compose" }
+
+kotlin_coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines_ktx" }
+kotlin_coroutines_android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines_ktx" }
+
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit_gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+logging_interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+
+lifecycle_runtime_ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecyle_runtime_ktx" }
+
+room_ktx = { module = "androidx.room:room-ktx", version.ref = "room_ktx" }
+room_compiler = { module = "androidx.room:room-compiler", version.ref = "room_ktx" }
+datastore = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
+datastore_core = { module = "androidx.datastore:datastore-core", version.ref = "datastore" }
+
+junit = { module = "junit:junit", version.ref = "junit" }
+junit_jupiter_engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit_jupiter" }
+junit_jupiter_api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit_jupiter" }
+truth = { module = "com.google.truth:truth", version.ref = "truth" }
+mockito_core = { module = "org.mockito:mockito-core", version.ref = "mockito_core" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+coroutines_test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines_test" }
+android_junit_ktx = { module = "androidx.test.ext:junit-ktx", version.ref = "android_junit_ktx" }
+espresso_core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso_core" }
+compose_junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+roboelectric = { module = "org.robolectric:robolectric", version.ref = "roboelectric" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+
+firebaseAnalytics = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebaseCrashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx" }
+firebaseDom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseDom" }
+firebaseRemoteConfig = { module = "com.google.firebase:firebase-config-ktx" }
+
+[bundles]
+common = ["core_ktx", "app_compat", "material", "fragment_ktx", "activity_ktx", "viewmodel_ktx"]
+compose = ["compose-ui", "compose-material", "compose-foundation", "compose-tooling", "compose-runtime", "compose-compiler", "compose-navigation", "compose-coil"]
+accompanist = ["accompanist-permissions", "accompanist-navigation-material"]
+di = ["hilt", "hilt_compose"]
+kotlin_coroutines = ["kotlin_coroutines", "kotlin_coroutines_android"]
+network = ["retrofit", "retrofit_gson", "logging_interceptor"]
+storage = ["room_ktx", "room_compiler", "datastore"]
+local_test = ["junit", "junit_jupiter_api", "truth", "mockito_core", "mockk", "coroutines_test"]
+integration_test = ["android_junit_ktx", "espresso_core"]
+firebase = ["firebaseAnalytics", "firebaseCrashlytics", "firebaseRemoteConfig"]

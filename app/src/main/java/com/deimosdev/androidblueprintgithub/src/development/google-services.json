@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "178834341759",
+    "project_id": "deimos-android-template",
+    "storage_bucket": "deimos-android-template.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178834341759:android:46e97ddbd9ae764d19a44a",
+        "android_client_info": {
+          "package_name": "com.deimosdev.androidblueprintgithub.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178834341759-de8n83ka18q99ejsb3vah57944u0tid8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHTRm_7HVP7lAQGP8kdzvuC6RqfeX8mwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178834341759-de8n83ka18q99ejsb3vah57944u0tid8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178834341759:android:a016d13815e7227719a44a",
+        "android_client_info": {
+          "package_name": "com.deimosdev.androidblueprintgithub.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178834341759-de8n83ka18q99ejsb3vah57944u0tid8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHTRm_7HVP7lAQGP8kdzvuC6RqfeX8mwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178834341759-de8n83ka18q99ejsb3vah57944u0tid8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178834341759:android:0955e8712d8abc4d19a44a",
+        "android_client_info": {
+          "package_name": "com.deimosdev.androidblueprintgithub.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178834341759-de8n83ka18q99ejsb3vah57944u0tid8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHTRm_7HVP7lAQGP8kdzvuC6RqfeX8mwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178834341759-de8n83ka18q99ejsb3vah57944u0tid8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

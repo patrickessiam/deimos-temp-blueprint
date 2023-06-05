@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run Gradle clean task
+./gradlew detekt
